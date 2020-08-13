@@ -9,7 +9,7 @@ This works, but it will give you a hash with spaces. To avoid this, we can use c
 ### Usage
 Simply save the script and do:
 ```
-C:\hash.cmd file.zip SHA1
+C:\checksum.cmd file.zip SHA1
 ```
 This will output ONLY the specified type of hash of the file, without unnecessary lines or spaces.
 
@@ -26,5 +26,5 @@ to
 ```
 And add the output file as the third parameter in your command:
 ```
-C:\hash.cmd file.zip SHA1 output.txt
+C:\checksum.cmd file.zip SHA1 output.txt
 ```
